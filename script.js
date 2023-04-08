@@ -19,8 +19,8 @@ var viewer = new PANOLENS.Viewer({ container: container });
 viewer.add(panorama, panorama2);
 
 var textureLoader = new THREE.TextureLoader();
-var customInfospot = textureLoader.load("images/sakura.png", function () {
-    var infospot = new PANOLENS.Infospot(500, "images/sakura.png");
+var customInfospot = textureLoader.load("images/day.png", function () {
+    var infospot = new PANOLENS.Infospot(500, "images/day.png");
     infospot.position.set(0, -2000, -5000);
     infospot.addEventListener('click', function () {
         onButtonClick(panorama2);
