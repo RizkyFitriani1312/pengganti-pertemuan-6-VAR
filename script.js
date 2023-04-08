@@ -1,6 +1,6 @@
 var container = document.querySelector('#container');
 var panorama = new
-PANOLENS.ImagePanorama('https://github.com/RizkyFitriani1312/pengganti-pertemuan-6-VAR/blob/main/images/mountain%20aurora.jpg');
+PANOLENS.ImagePanorama('https://github.com/RizkyFitriani1312/pengganti-pertemuan-6-VAR/blob/main/images/cliff.jpg');
 
 var viewer = new PANOLENS.Viewer({ container: container });
 viewer.add(panorama);
@@ -11,7 +11,7 @@ panorama.add(infospot);
 
 var container = document.querySelector('#container');
 var panorama = new
-PANOLENS.ImagePanorama('https://github.com/RizkyFitriani1312/pengganti-pertemuan-6-VAR/blob/main/images/mountain%20aurora.jpg');
+PANOLENS.ImagePanorama('https://github.com/RizkyFitriani1312/pengganti-pertemuan-6-VAR/blob/main/images/cliff.jpg');
 var panorama2 = new
 PANOLENS.ImagePanorama('https://github.com/RizkyFitriani1312/pengganti-pertemuan-6-VAR/blob/main/images/watherfall.jpg');
 
