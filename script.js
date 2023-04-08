@@ -1,6 +1,6 @@
 var container = document.querySelector('#container');
 var panorama = new
-PANOLENS.ImagePanorama('https://pchen66.github.io/Panolens/examples/asset/textures/equirectangular/tunnel.jpg');
+PANOLENS.ImagePanorama('https://github.com/RizkyFitriani1312/pengganti-pertemuan-6-VAR/blob/main/images/mountain%20aurora.jpg');
 
 var viewer = new PANOLENS.Viewer({ container: container });
 viewer.add(panorama);
@@ -11,7 +11,7 @@ panorama.add(infospot);
 
 var container = document.querySelector('#container');
 var panorama = new
-PANOLENS.ImagePanorama('https://pchen66.github.io/Panolens/examples/asset/textures/equirectangular/tunnel.jpg');
+PANOLENS.ImagePanorama('https://github.com/RizkyFitriani1312/pengganti-pertemuan-6-VAR/blob/main/images/mountain%20aurora.jpg');
 var panorama2 = new
 PANOLENS.ImagePanorama('https://github.com/RizkyFitriani1312/pengganti-pertemuan-6-VAR/blob/main/images/watherfall.jpg');
 
@@ -19,8 +19,8 @@ var viewer = new PANOLENS.Viewer({ container: container });
 viewer.add(panorama, panorama2);
 
 var textureLoader = new THREE.TextureLoader();
-var customInfospot = textureLoader.load('images/sakura.png', function () {
-    var infospot = new PANOLENS.Infospot(500, 'images/sakura.png');
+var customInfospot = textureLoader.load(images/sakura.png, function () {
+    var infospot = new PANOLENS.Infospot(500, images/sakura.png);
     infospot.position.set(0, -2000, -5000);
     infospot.addEventListener('click', function () {
         onButtonClick(panorama2);
